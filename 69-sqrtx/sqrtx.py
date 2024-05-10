@@ -4,12 +4,12 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        if x == 0:
+        if x==0:
             return 0
         
-        sqrt = 1
+        sqrt=1
         while sqrt * sqrt <= x:
-            sqrt += 1
+            sqrt = sqrt+1
         
-        return sqrt - 1
+        return sqrt-1
        
